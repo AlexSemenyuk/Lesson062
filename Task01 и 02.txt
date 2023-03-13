@@ -1,0 +1,26 @@
+1. LINK01
+1.1 task01
+document.getElementById('star').src=`star_on.gif`;
+1.2 task02
+document.getElementById('stars').childNodes[1].src = 'star_on.gif';
+1.3 task03
+document.getElementById('phrase').lastChild.firstChild.src = 'star_on.gif';
+1.4 task04
+document.getElementById('laststar').previousSibling.previousSibling.src = 'star_on.gif';
+1.5 task05
+document.getElementById('start_here').parentNode.nextSibling.lastChild.src = 'star_on.gif';
+
+2. LINK02
+2.1 task21
+document.getElementById('field').innerHTML = '<img src="star_on.gif">';
+2.2 task22
+document.getElementById('fallenstar').parentElement.removeChild(document.getElementById('fallenstar'));
+2.3 task23
+document.getElementById('target').appendChild(document.getElementById('source').lastChild);
+2.4 task24
+let rezult = document.createTextNode('42');
+document.getElementById('math').appendChild(rezult)
+2.5 task25
+const img = document.createElement('img');
+img.src = 'star_on.gif';
+document.getElementById('sky').appendChild(img);
